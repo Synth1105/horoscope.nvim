@@ -4,33 +4,32 @@ if vim.fn.exists("syntax_on") then
   vim.cmd("syntax reset")
 end
 
-vim.o.termguicolors = true
 vim.o.background = "dark"
 vim.g.colors_name = "horoscope"
 
 local colors = {
--- PATCH_OPEN
-Normal = {fg = "#BFC3D4", bg = "#201F2E"},
-Character = {fg = "#D48C68"},
-Comment = {fg = "#92A59E"},
-Delimiter = {fg = "#F193EE"},
-DiagnosticError = {fg = "#F39BAE"},
-DiagnosticHint = {fg = "#A3ACCC"},
-DiagnosticInfo = {fg = "#80F7FF"},
-DiagnosticOk = {fg = "#ACF6BE"},
-DiagnosticWarn = {fg = "#F8E18B"},
-Error = {fg = "#853A23"},
-Exception = {fg = "#F08E89"},
-Function = {fg = "#B28FD1"},
-Identifier = {fg = "#4AB5A9"},
-Ignore = {fg = "#A3A0B1"},
-Keyword = {fg = "#ACB757"},
-Operator = {fg = "#FD9BBA"},
-Statement = {fg = "#96ACFD"},
-String = {fg = "#CE955F"},
-Todo = {fg = "#1F558E"},
-Type = {fg = "#BC9BED"},
--- PATCH_CLOSE
+  -- PATCH_OPEN
+  Normal = { bg = "#21202f", fg = "#bec2d4" },
+  Comment = { fg = "#93a79f" },
+  String = { fg = "#ce935d" },
+  Character = { fg = "#d58e69" },
+  Identifier = { fg = "#4bb6a8" },
+  Function = { fg = "#b391d2" },
+  Statement = { fg = "#96acfe" },
+  Operator = { fg = "#fd9cba" },
+  Keyword = { fg = "#acb759" },
+  Exception = { fg = "#f08e89" },
+  Type = { fg = "#bc9bed" },
+  Delimiter = { fg = "#f193ee" },
+  Ignore = { fg = "#a29fb0" },
+  Error = { fg = "#833923" },
+  Todo = { fg = "#1f548c" },
+  DiagnosticError = { fg = "#f39aad" },
+  DiagnosticWarn = { fg = "#f8e18a" },
+  DiagnosticInfo = { fg = "#7ff6ff" },
+  DiagnosticHint = { fg = "#a4adcd" },
+  DiagnosticOk = { fg = "#aaf5bc" },
+  -- PATCH_CLOSE
 }
 
 for group, attrs in pairs(colors) do
