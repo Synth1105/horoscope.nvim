@@ -6,6 +6,8 @@ Runtime:
 
 - `colors/horoscope.lua` is the file that `lazy.nvim` users actually load.
 - `colors/horoscope.vim` is a tiny shim so `:colorscheme horoscope` works reliably.
+- `lua/horoscope/palette.lua` is the shared palette used by the colorscheme and plugin integrations.
+- `lua/horoscope/generated.lua` is the Shipwright-generated base highlight table.
 - End users do not need `lush.nvim` or `shipwright`.
 
 Requirements:
@@ -27,10 +29,16 @@ lazy.nvim:
 }
 ```
 
+Plugin support:
+
+- `lualine.nvim`: `options.theme = "horoscope"`
+- `which-key.nvim`: highlight groups are included in the colorscheme
+- `neo-tree.nvim`: highlight groups are included in the colorscheme
+
 Build:
 
 ```sh
 shipwright shipwright_build.lua
 ```
 
-After building, commit the generated `colors/horoscope.lua` before pushing to GitHub.
+After building, commit the updated `lua/horoscope/generated.lua` before pushing to GitHub.
