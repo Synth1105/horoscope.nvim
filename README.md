@@ -35,6 +35,30 @@ Plugin support:
 - `which-key.nvim`: highlight groups are included in the colorscheme
 - `neo-tree.nvim`: highlight groups are included in the colorscheme
 
+Extras:
+
+- `extras/ghostty/horoscope`: Ghostty theme file based on the same palette
+- `extras/starship/horoscope.toml`: Starship prompt theme based on your current config layout
+- `extras/tmux/horoscope.conf`: tmux theme snippet inspired by `catppuccin/tmux`
+
+Ghostty:
+
+```sh
+theme = /absolute/path/to/horoscope/extras/ghostty/horoscope
+```
+
+tmux:
+
+```tmux
+source-file /absolute/path/to/horoscope/extras/tmux/horoscope.conf
+```
+
+Starship:
+
+```sh
+cp /absolute/path/to/horoscope/extras/starship/horoscope.toml ~/.config/starship.toml
+```
+
 Build:
 
 ```sh
