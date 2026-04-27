@@ -1,7 +1,7 @@
 # horoscope
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/56817415/213472445-091e54fb-091f-4448-a631-fa6b2ba7d8a5.png"/>
+  <img src="https://github.com/Synth1105/horoscope.nvim/blob/main/screens/screenshot.png?raw=true"/>
 </p>
 
 
