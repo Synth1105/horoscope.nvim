@@ -1,0 +1,70 @@
+[theme]
+name = "horoscope"
+
+[colors]
+base = "#21202f" # space black
+primary = "#b8c0ea" # cosmic blue
+secondary = "#b391d2"  # nebula purple
+others = [
+    "#b391d2", # radiation green
+    "#f8e18a", # sunlight yellow
+    "#f39aad" # supernova red
+]
+
+[lush_colors]
+
+  bg = "#21202f",
+  bg_alt = "#28283a",
+  bg_float = "#2d2c40",
+  bg_visual = "#3b4565",
+  bg_status = "#312f45",
+  bg_popup = "#35344c",
+  surface0 = "#28283a",
+  surface1 = "#2d2c40",
+  surface2 = "#35344c",
+  fg = "#bec2d4",
+  fg_alt = "#a29fb0",
+  fg_subtle = "#93a79f",
+  border = "#4c4a67",
+  border_alt = "#6d697e",
+  comment = "#93a79f",
+  string = "#ce935d",
+  character = "#d58e69",
+  identifier = "#4bb6a8",
+  func = "#b391d2",
+  macro = "#c08cc6",
+  statement = "#b8c0ea",
+  operator = "#fd9cba",
+  keyword = "#acb759",
+  exception = "#f08e89",
+  type = "#bc9bed",
+  delimiter = "#f193ee",
+  muted = "#a29fb0",
+  error = "#833923",
+  todo = "#1f548c",
+  diag_error = "#f39aad",
+  diag_warn = "#f8e18a",
+  diag_info = "#7ff6ff",
+  diag_hint = "#a4adcd",
+  diag_ok = "#aaf5bc",
+  cursor = "#f193ee",
+  cursor_text = "#21202f",
+  selection_bg = "#3b4565",
+  selection_fg = "#bec2d4",
+  ansi_black = "#28283a",
+  ansi_red = "#f08e89",
+  ansi_green = "#aaf5bc",
+  ansi_yellow = "#f8e18a",
+  ansi_blue = "#96acfe",
+  ansi_magenta = "#b391d2",
+  ansi_cyan = "#4bb6a8",
+  ansi_white = "#bec2d4",
+  bright_black = "#6d697e",
+  bright_red = "#f39aad",
+  bright_green = "#b7f7c6",
+  bright_yellow = "#fbeeaf",
+  bright_blue = "#b1c0ff",
+  bright_magenta = "#cfb4eb",
+  bright_cyan = "#7ff6ff",
+  bright_white = "#f1f3fb",
+
