@@ -2,7 +2,7 @@ local c = require("horoscope.palette")
 
 return {
   normal = {
-    a = { bg = c.fg, fg = c.bg, gui = "bold" },
+    a = { bg = c.statement, fg = c.bg, gui = "bold" },
     b = { bg = c.bg_status, fg = c.fg },
     c = { bg = c.bg_alt, fg = c.fg_alt },
   },
