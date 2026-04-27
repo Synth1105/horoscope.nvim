@@ -19,6 +19,7 @@ local M = {
   character = "#d58e69",
   identifier = "#4bb6a8",
   func = "#b391d2",
+  macro = "#c08cc6",
   statement = "#96acfe",
   operator = "#fd9cba",
   keyword = "#acb759",
