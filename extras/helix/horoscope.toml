@@ -1,0 +1,82 @@
+# Helix Theme generated from provided Lua palette
+
+"ui.background" = { bg = "#21202f" }
+"ui.background.separator" = { fg = "#4c4a67" }
+"ui.cursor" = { fg = "#21202f", bg = "#f193ee" }
+"ui.cursor.match" = { fg = "#f193ee", modifiers = ["bold"] }
+"ui.selection" = { bg = "#3b4565" }
+"ui.selection.primary" = { bg = "#3b4565" }
+
+"ui.statusline" = { fg = "#bec2d4", bg = "#312f45" }
+"ui.statusline.inactive" = { fg = "#a29fb0", bg = "#28283a" }
+"ui.statusline.normal" = { fg = "#21202f", bg = "#b391d2", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "#21202f", bg = "#aaf5bc", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "#21202f", bg = "#ce935d", modifiers = ["bold"] }
+
+"ui.window" = { fg = "#4c4a67" }
+"ui.help" = { bg = "#2d2c40", fg = "#bec2d4" }
+"ui.popup" = { bg = "#35344c", fg = "#bec2d4" }
+"ui.menu" = { bg = "#35344c", fg = "#bec2d4" }
+"ui.menu.selected" = { bg = "#3b4565", fg = "#f193ee" }
+
+"ui.linenr" = { fg = "#6d697e" }
+"ui.linenr.selected" = { fg = "#bec2d4", modifiers = ["bold"] }
+
+"ui.text" = "#bec2d4"
+"ui.text.focus" = "#bec2d4"
+
+# Syntax Highlighting
+"comment" = "#93a79f"
+"string" = "#ce935d"
+"constant" = "#d58e69"
+"constant.character" = "#d58e69"
+"variable" = "#bec2d4"
+"variable.builtin" = "#b8c0ea"
+"variable.parameter" = "#bec2d4"
+"variable.other.member" = "#4bb6a8"
+"label" = "#f193ee"
+"punctuation" = "#f193ee"
+"punctuation.delimiter" = "#f193ee"
+
+"function" = "#b391d2"
+"function.builtin" = "#bc9bed"
+"function.macro" = "#c08cc6"
+
+"keyword" = "#acb759"
+"keyword.control.exception" = "#f08e89"
+"operator" = "#fd9cba"
+"type" = "#bc9bed"
+"type.builtin" = "#bc9bed"
+"constructor" = "#b391d2"
+"attribute" = "#c08cc6"
+
+"namespace" = "#b8c0ea"
+"special" = "#f193ee"
+
+# Markup
+"markup.heading" = "#b391d2"
+"markup.list" = "#f08e89"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = { fg = "#ce935d", modifiers = ["underline"] }
+"markup.link.text" = "#f08e89"
+"markup.quote" = "#93a79f"
+"markup.raw" = "#aaf5bc"
+
+# Diagnostics
+"diagnostic.error" = { underline = { color = "#f39aad", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "#f8e18a", style = "curl" } }
+"diagnostic.info" = { underline = { color = "#7ff6ff", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "#a4adcd", style = "curl" } }
+
+"error" = "#f39aad"
+"warning" = "#f8e18a"
+"info" = "#7ff6ff"
+"hint" = "#a4adcd"
+
+# Palette for reference/overrides
+[palette]
+bg = "#21202f"
+fg = "#bec2d4"
+border = "#4c4a67"
+selection = "#3b4565"
